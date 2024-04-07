@@ -23,6 +23,7 @@ script19_Linux_Smart_Enumeration=Shell_Scripts/LINUX-SMART-ENUMERATION.sh
 script20_nmap=Shell_Scripts/nmap.sh
 script21_hping3=Shell_Scripts/hping3.sh
 script22_Netcat=Shell_Scripts/Netcat.sh
+script23_dirsearch=Shell_Scripts/dirsearch.sh
 
 # Add more paths if you have additional shell scripts
 
@@ -49,6 +50,7 @@ bash "$script19_Linux_Smart_Enumeration" &
 bash "$script20_nmap" &
 bash "$script21_hping3" &
 bash "$script22_Netcat" &
+bash "$script23_dirsearch"
 
 echo "ALl scripts have been completed"
 
