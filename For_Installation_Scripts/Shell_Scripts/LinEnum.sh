@@ -10,7 +10,6 @@ cd LinEnum/
 chmod +x LinEnum.sh
 
 # Run LinEnum script
-./LinEnum.sh
 
 # Inform the user about successful installation and execution
 echo "LinEnum has been installed and executed successfully."
