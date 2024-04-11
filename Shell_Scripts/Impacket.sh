@@ -14,4 +14,4 @@ sudo python3 setup.py install
 
 chmod +x install_impacket.sh
 
-./install_impacket.sh
+
