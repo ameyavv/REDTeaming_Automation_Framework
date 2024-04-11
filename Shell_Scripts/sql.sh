@@ -15,8 +15,3 @@ sudo usermod -aG docker $USER
 # Run DVWA container
 docker run --rm -it -p 80:80 vulnerables/web-dvwa &
 
-# Prompt for URL to be scanned with sqlmap
-read -p "Enter the URL to be scanned with sqlmap: " url
-
-# Run sqlmap with the provided URL
-sqlmap -u "$url"
