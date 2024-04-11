@@ -11,4 +11,4 @@ python theHarvester.py -d example.com -b all
 
 chmod +x run_theHarvester.sh
 
-./run_theHarvester.sh
+#./run_theHarvester.sh
