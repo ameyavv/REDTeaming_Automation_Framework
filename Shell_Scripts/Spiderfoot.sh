@@ -16,8 +16,8 @@ sleep 5
 python3 ./sfcli.py -s http://127.0.0.1:5001
 
 # Optional: Ping command
-ping
+#ping
 
 chmod +x run_spiderfoot.sh
 
-./run_spiderfoot.sh
+#./run_spiderfoot.sh
