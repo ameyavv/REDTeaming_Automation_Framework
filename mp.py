@@ -268,7 +268,7 @@ while(True):
             print("Running LinEnum")
             #command = "x-terminal-emulator"
             #subprocess.Popen(command)
-            dpath = str(os.path.join(os.path.expanduser("~"), "Downloads/REDTeaming_Automation_Framework/Shell_Scripts/LinEnum"))
+            dpath = str(os.path.join(os.path.expanduser("~"), "Downloads/REDTeaming_Automation_Framework/LinEnum"))
             subprocess.call(["./LinEnum.sh"], cwd= dpath)
 
       elif choice == 10:
