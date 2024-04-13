@@ -26,6 +26,31 @@ def get_ip_address():
 ip_address = get_ip_address()
 print("Your IP address is:", ip_address)
 
+def pspy(commands7):
+    """
+    Runs the given commands in a new terminal window on Kali Linux.
+
+    Args:
+        commands (list): A list of commands to be executed.
+    """
+
+    try:
+        # Join the commands with '; ' to execute them in sequence
+        command_str = '; '.join(commands7)
+
+        # Open a new terminal window and execute the commands
+        process = subprocess.Popen(['x-terminal-emulator', '-e', f'bash -c "{command_str};echo Press Enter to close the window; read"'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        time.sleep(30)
+        # Wait for the process to terminate
+        process.wait()
+
+        print("Commands executed in a new terminal window.")
+    except subprocess.CalledProcessError as e:
+        print(f"Error running commands: {e}")
+
+# Example usage
+commands5 = ["sudo pspy"]
+
 def netcat(commands5):
     """
     Runs the given commands in a new terminal window on Kali Linux.
@@ -328,9 +353,12 @@ while(True):
 
             dpath = str(os.path.join(os.path.expanduser("~"), "Downloads/dirsearch"))
             subprocess.call(cm03 , cwd=dpath)
-
-
-      elif choice == 19 :
+          
+      elif choice ==19:
+          print("Running Pspy")
+          pspy(commands7)
+          
+      elif choice == 20 :
             print("Thank you for using our program!!")
             break
       else:
