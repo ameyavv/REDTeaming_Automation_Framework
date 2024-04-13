@@ -49,7 +49,7 @@ def pspy(commands7):
         print(f"Error running commands: {e}")
 
 # Example usage
-commands5 = ["sudo pspy"]
+commands7 = ["sudo pspy --debug"]
 
 def netcat(commands5):
     """
