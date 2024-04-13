@@ -261,7 +261,7 @@ while(True):
 
       elif choice == 8:
             print("Running LinPEAS")
-            dpath = str(os.path.join(os.path.expanduser("~"), "Downloads/REDTeaming_Automation_Framework/Shell_Scripts"))
+            dpath = str(os.path.join(os.path.expanduser("~"), "Downloads/REDTeaming_Automation_Framework"))
             subprocess.call(["./linpeas.sh"], cwd= dpath)
 
       elif choice == 9:
