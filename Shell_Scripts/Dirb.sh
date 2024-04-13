@@ -10,11 +10,11 @@ sudo apt install dirb
 dirb -h
 
 # Scan https://github.com/digininja/DVWA
-dirb https://github.com/digininja/DVWA
+#dirb https://github.com/digininja/DVWA
 
 # Scan https://github.com/digininja/DVWA excluding .php extensions
-dirb https://github.com/digininja/DVWA -X.php
+#dirb https://github.com/digininja/DVWA -X.php
 
 # Scan https://github.com/digininja/DVWA following 302 redirects
-dirb https://github.com/digininja/DVWA -N 302
+#dirb https://github.com/digininja/DVWA -N 302
 
