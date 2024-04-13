@@ -5,7 +5,7 @@ echo "Cloning Dirsearch repository..."
 git clone https://github.com/maurosoria/dirsearch.git
 
 # Navigate into the dirsearch directory
-cd dirsearch
+#cd dirsearch
 
 # Display usage instructions
 echo "Dirsearch has been installed."
