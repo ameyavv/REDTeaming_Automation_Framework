@@ -7,7 +7,7 @@ sudo apt update
 sudo apt install dirb
 
 # Display dirb help
-dirb -h
+#dirb -h
 
 # Scan https://github.com/digininja/DVWA
 #dirb https://github.com/digininja/DVWA
