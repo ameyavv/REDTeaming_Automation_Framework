@@ -230,7 +230,7 @@ def run_dirb():
 
 
 while(True):
-      print("1. SQL Injection\n2. OSINT\n3. Web Vulnerability Scanning\n4. Network Sniffing\n5. network protocol manipulation\n6. Web Directory Sniffer\n7. online account finder\n8. System Scanning\n9. System Scanning2\n10. Web Scanning\n11. Enumeration \n12. Detecting Vulnerable Exploits\n13. Unix\n14. Remote Access a Device\n15. Hping\n16. Nmap\n17. NetCat\n18. Dirsearch\n19. Exit")
+      print("1. SQL Injection\n2. OSINT\n3. Web Vulnerability Scanning\n4. Network Sniffing\n5. network protocol manipulation\n6. Web Directory Sniffer\n7. online account finder\n8. System Scanning\n9. System Scanning2\n10. Web Scanning\n11. Enumeration \n12. Detecting Vulnerable Exploits\n13. Unix\n14. Remote Access a Device\n15. Hping\n16. Nmap\n17. NetCat\n18. Dirsearch\n19. Pspy\n20. Exit")
       print("Please enter the number of the activity that you wish to do from the above: ")
       choice = int(input())
       if choice == 1:
