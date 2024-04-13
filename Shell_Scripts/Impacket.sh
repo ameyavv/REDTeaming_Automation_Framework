@@ -12,6 +12,6 @@ sudo apt install python3 python3-pip
 # Install Impacket
 sudo python3 setup.py install
 
-chmod +x install_impacket.sh
+#chmod +x install_impacket.sh
 
 
