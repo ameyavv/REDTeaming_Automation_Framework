@@ -19,6 +19,7 @@ script15_nmap=Shell_Scripts/nmap.sh
 script16_hping3=Shell_Scripts/hping3.sh
 script17_Netcat=Shell_Scripts/Netcat.sh
 script18_pspy=Shell_Scripts/pspy.sh
+script19_dirsearch=Shell_Scripts/dirsearch.sh
 
 # Array of script variables
 scripts=( script1_metasploit
@@ -39,6 +40,7 @@ scripts=( script1_metasploit
     script16_hping3
     script17_Netcat
     script18_pspy
+    script19_dirsearch
 )
 
 # Loop through each script
