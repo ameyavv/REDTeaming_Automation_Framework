@@ -18,8 +18,7 @@ script14_Linux_Smart_Enumeration=Shell_Scripts/LINUX-SMART-ENUMERATION.sh
 script15_nmap=Shell_Scripts/nmap.sh
 script16_hping3=Shell_Scripts/hping3.sh
 script17_Netcat=Shell_Scripts/Netcat.sh
-script18_dirsearch=Shell_Scripts/dirsearch.sh
-script19_pspy=Shell_Scripts/pspy.sh
+script18_pspy=Shell_Scripts/pspy.sh
 
 # Array of script variables
 scripts=( script1_metasploit
@@ -39,8 +38,7 @@ scripts=( script1_metasploit
     script15_nmap
     script16_hping3
     script17_Netcat
-    script18_dirsearch
-    script19_pspy
+    script18_pspy
 )
 
 # Loop through each script
